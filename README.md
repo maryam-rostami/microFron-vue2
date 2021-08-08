@@ -1,6 +1,6 @@
 # Implementing Microfrontends in vue && webpack5
 
-## Nuxt application
+## Vue application
 
 Install dependencies for Nuxt application `project`.
 
@@ -12,9 +12,9 @@ yarn install
  yarn start
 ```
 
-## growlers
+## framwork/userManagement
 
-Install dependencies for `framwork`.
+Install dependencies for `framwork/userManagement`.
 
 ```shell
 yarn install
