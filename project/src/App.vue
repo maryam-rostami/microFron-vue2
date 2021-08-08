@@ -1,7 +1,6 @@
 <template>
   <div class="text-3xl font-bold">
     <header>Menu</header>
-    sample project
     <div class="content">
       <div class="content-body">
         <h1>MF 1</h1>
@@ -22,7 +21,7 @@
   </div>
 </template>
 
-<script lang="ts">
+<script>
 import { defineComponent } from "vue";
 import Search from "whatever/Search";
 import Taps from "whatever/Taps";
@@ -57,24 +56,6 @@ footer {
   background: #e2e2e2;
 }
 /* module style  */
-.btn-addToCart {
-  padding: 10px;
-  font-size: 13px;
-  border-radius: 5px;
-  background: #3b82f6;
-  color: #fff;
-  border: 1px solid #3b82f6;
-}
-button.btn-checkout {
-  padding: 20px;
-  border: 1px solid green;
-  background: green;
-  color: #fff;
-  display: block;
-  width: 100%;
-  border-radius: 5px;
-  font-size: 20px;
-}
 .content-mf1 {
   width: 100%;
   display: flex;
@@ -82,11 +63,9 @@ button.btn-checkout {
 .item {
   padding: 10px;
   border: 3px solid #4fd24f;
-}
-.item-cart {
+  flex-grow: 4;
+  margin: 15px;
   text-align: center;
-  margin-bottom: 15px;
-  padding: 15px;
-  border-bottom: 1px solid #ccc;
+  font-size: 30px;
 }
 </style>

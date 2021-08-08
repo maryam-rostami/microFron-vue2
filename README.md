@@ -9,17 +9,17 @@ yarn install
 ```
 
 ```shell
- yarn dev
+ yarn start
 ```
 
 ## growlers
 
-Install dependencies for Nova service `growlers`.
+Install dependencies for `framwork`.
 
 ```shell
 yarn install
 ```
 
 ```shell
-yarn dev
+yarn start
 ```

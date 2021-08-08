@@ -80,7 +80,7 @@ module.exports = {
     new ModuleFederationPlugin({
       name: "project",
       filename: "remoteEntry.js",
-      remotes: { "whatever": "growlers@http://localhost:8080/remoteEntry.js"},
+      remotes: { "whatever": "modulUserManagement@http://localhost:8080/remoteEntry.js"},
       exposes: {},
       shared: require("./package.json").dependencies,
     }),

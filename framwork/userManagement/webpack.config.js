@@ -71,14 +71,13 @@ module.exports = {
   plugins: [
     new VueLoaderPlugin(),
     new ModuleFederationPlugin({
-      name: "growlers",
+      name: "modulUserManagement",
       filename: "remoteEntry.js",
       remotes: {},
       exposes: {
         "./Cart": "./src/components/Cart.vue",
         "./Search": "./src/components/Search.vue",
         "./Taps": "./src/components/Taps.vue",
-        "./store": "./src/store.ts",
 
       },
       shared: require("./package.json").dependencies,
