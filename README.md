@@ -1,4 +1,4 @@
-# Implementing Microfrontends in vue with webpack5
+# Implementing Microfrontends in vue && webpack5
 
 ## Nuxt application
 
