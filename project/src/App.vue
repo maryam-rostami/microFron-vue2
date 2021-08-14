@@ -1,22 +1,42 @@
 <template>
   <div class="text-3xl font-bold">
     <header>Menu</header>
-    <div class="content">
-      <div class="content-body">
-        <h1>MF 1</h1>
-        <div class="content-grid">
-          <Search />
-          <Taps />
-          <Cart />
-        </div>
-      </div>
+    <div class="p-10">
+      <h1>MF 1</h1>
 
-      <div class="content-body">
-        <h1>MF 2</h1>
-        <div class="content-grid"></div>
+      <div class="content">
+        <div class="content-body">
+          <h3>Components can be used independently</h3>
+          <div class="content-grid">
+            <Search />
+            <Cart />
+          </div>
+        </div>
+
+        <div class="content-body">
+          <h3>The whole module can be used in one place</h3>
+          <div class="content-grid">
+            <UserManagement />
+          </div>
+        </div>
       </div>
     </div>
 
+    <hr />
+
+    <div class="p-10">
+      <h1>MF 2</h1>
+
+      <div class="content">
+        <div class="content-body">
+          <div class="content-grid"></div>
+        </div>
+
+        <div class="content-body">
+          <div class="content-grid"></div>
+        </div>
+      </div>
+    </div>
     <footer>Footer</footer>
   </div>
 </template>
@@ -26,12 +46,14 @@ import { defineComponent } from "vue";
 import Search from "whatever/Search";
 import Taps from "whatever/Taps";
 import Cart from "whatever/Cart";
+import UserManagement from "whatever/UserManagement";
 
 export default defineComponent({
   components: {
     Search,
     Taps,
     Cart,
+    UserManagement,
   },
 });
 </script>
@@ -67,5 +89,12 @@ footer {
   margin: 15px;
   text-align: center;
   font-size: 30px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.p-10 {
+  padding: 10px;
 }
 </style>

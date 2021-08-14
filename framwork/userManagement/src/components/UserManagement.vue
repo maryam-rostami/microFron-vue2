@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="width: 100%">
     <h1 class="text-center">User managment</h1>
     <div class="content-mf1">
       <Search />
@@ -10,9 +10,9 @@
 </template>
 
 <script>
-import Taps from "./components/Taps";
-import Search from "./components/Search";
-import Cart from "./components/Cart";
+import Taps from "./Taps";
+import Search from "./Search";
+import Cart from "./Cart";
 
 export default {
   components: {

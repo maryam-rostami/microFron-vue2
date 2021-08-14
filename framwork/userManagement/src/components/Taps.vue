@@ -1,5 +1,5 @@
 <template>
-  <div class="item">tabs</div>
+  <div class="item">component 3</div>
 </template>
 
 <script>

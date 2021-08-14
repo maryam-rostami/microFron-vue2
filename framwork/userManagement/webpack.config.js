@@ -78,6 +78,7 @@ module.exports = {
         "./Cart": "./src/components/Cart.vue",
         "./Search": "./src/components/Search.vue",
         "./Taps": "./src/components/Taps.vue",
+        "./UserManagement": "./src/components/UserManagement.vue",
 
       },
       shared: require("./package.json").dependencies,
